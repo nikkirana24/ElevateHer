@@ -13,7 +13,11 @@ struct ContentView: View {
             Text("Your Profile")
                 .font(.title)
                 .fontWeight(.bold)
-            
+            HStack{
+                Image("ProfileIcon")
+                    .resizable()
+            }
+            .padding()
         }
         .padding()
     }
